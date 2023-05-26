@@ -1,0 +1,14 @@
+.title {
+    max-width: 508px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #180202;
+}
+.left{
+    text-align: left;
+}

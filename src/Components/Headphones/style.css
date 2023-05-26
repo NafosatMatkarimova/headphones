@@ -1,0 +1,24 @@
+.headphones-wrapper{
+    width: 100%;
+    margin-block: 130px;
+}
+
+.box-child__title{
+    font-weight: 500;
+font-size: 31px;
+line-height: 140%;
+color: #180202;
+}
+.box-child__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #180202;
+opacity: 0.7;
+}
+.box-child__link{
+    font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #FF4948;
+}
