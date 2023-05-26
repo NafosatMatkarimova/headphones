@@ -2,6 +2,22 @@
     width: 100%;
     margin-block: 130px;
 }
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headphones-info__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.box-childe__img img{
+    width: 98px;
+    height: 98px;
+}
 
 .box-child__title{
     font-weight: 500;
