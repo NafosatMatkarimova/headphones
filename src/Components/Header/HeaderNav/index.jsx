@@ -14,16 +14,20 @@ const HeaderNav = () => {
        <div className="header-nav">
          <div className="container">
         <div className="content  p-20">
-          <a href='/' className='logo'><img src={logo} alt='logo' /></a>
+         <link to='/' className='logo'><img src={logo} alt='logo' /></link>
             <nav className="header-nav__nav">
                 <div className="header-nav__nav-link">
                     <img src={search} alt="search" />
                 </div>
                 <div className="header-nav__nav-link">
+                    <link to='/contact'>
                     <img src={icon} alt="icon" />
+                    </link>
                 </div>
                 <div className="header-nav__nav-link">
-                    <img src={iconPer} alt="per" />
+                   <link to='/about'>
+                   <img src={iconPer} alt="per" />
+                   </link>
                 </div>
             </nav>
             <div>
