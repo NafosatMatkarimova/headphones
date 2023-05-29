@@ -1,9 +1,10 @@
 import React from "react";
+import HeaderNav from "./Components/Header/HeaderNav";
 
 const About = () => {
     return(
         <>
-        <h1> About</h1>
+        <HeaderNav/>
         </>
     )
 }

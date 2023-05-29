@@ -7,6 +7,7 @@ import search from '../../../assets/images/search.png';
 import icon from '../../../assets/images/icon.png';
 import iconPer from '../../../assets/images/icon-per.png';
 import iconLine from '../../../assets/images/icon-line.png';
+import { Link } from 'react-router-dom';
 
 
 const HeaderNav = () => {
@@ -14,20 +15,20 @@ const HeaderNav = () => {
        <div className="header-nav">
          <div className="container">
         <div className="content  p-20">
-         <link to='/' className='logo'><img src={logo} alt='logo' /></link>
+         <Link to="/" className='logo'><img src={logo} alt='logo' /></Link>
             <nav className="header-nav__nav">
                 <div className="header-nav__nav-link">
                     <img src={search} alt="search" />
                 </div>
                 <div className="header-nav__nav-link">
-                    <link to='/contact'>
+                    <Link to='/contact'>
                     <img src={icon} alt="icon" />
-                    </link>
+                    </Link>
                 </div>
                 <div className="header-nav__nav-link">
-                   <link to='/about'>
+                   <Link to='/about'>
                    <img src={iconPer} alt="per" />
-                   </link>
+                   </Link>
                 </div>
             </nav>
             <div>

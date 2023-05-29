@@ -3,7 +3,8 @@ import classNames from "classnames";
 
 import './style.css'
 
-const Title = (props, position) => {
-    return <h2 classNames={classNames('title',position && 'left')}>{props.text}</h2>
+const Title = ({text, position}) => {
+
+    return <h2 className={classNames('title', position && 'left')}>{text}</h2>
 }
 export default Title;

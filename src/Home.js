@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Components/Header";
 import Collaction from "./Components/Collaction";
 import Headphones from "./Components/Headphones";
 import Footer from "./Components/Footer";
@@ -9,7 +10,7 @@ const Home =() =>{
     return(
      
   <div>
-  <header/>
+  <Header/>
   <Collaction />
   <Headphones/>
   <Footer/>

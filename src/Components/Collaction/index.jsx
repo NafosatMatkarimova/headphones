@@ -19,7 +19,9 @@ const Collaction = () => {
     return (
         <section className="collaction">
             <div className="container">
+                  <div className="content">
                     <Title text={"Our Latest  colour collection 2021"} />
+                  </div>
                     <Swiper
                         slidesPerView={3}
                         spaceBetween={30}
